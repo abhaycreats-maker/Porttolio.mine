@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abhay Pandit | Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#0f172a;
+color:#fff;
+line-height:1.6;
+}
+
+header{
+display:flex;
+flex-direction:column;
+align-items:center;
+text-align:center;
+padding:40px 20px;
+background:linear-gradient(135deg,#1e293b,#0f172a);
+}
+
+.profile-img{
+width:160px;
+height:160px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid #22c55e;
+margin-bottom:15px;
+}
+
+header h1{
+font-size:32px;
+}
+
+header p{
+color:#94a3b8;
+}
+
+nav{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+background:#020617;
+padding:15px;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#22c55e;
+}
+
+section{
+max-width:1000px;
+margin:auto;
+padding:60px 20px;
+}
+
+h2{
+margin-bottom:20px;
+color:#22c55e;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:15px;
+}
+
+.skill{
+background:#1e293b;
+padding:15px;
+border-radius:8px;
+text-align:center;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.project{
+background:#1e293b;
+border-radius:10px;
+overflow:hidden;
+}
+
+.project img{
+width:100%;
+display:block;
+}
+
+.project-content{
+padding:15px;
+}
+
+.project a{
+display:inline-block;
+margin-top:10px;
+color:#22c55e;
+text-decoration:none;
+}
+
+.contact{
+text-align:center;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+color:#94a3b8;
+}
+
+@media(max-width:600px){
+header h1{
+font-size:24px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="profile.jpg" class="profile-img" alt="Abhay Pandit">
+<h1>Abhay Pandit</h1>
+<p>Video Editor | Graphic Designer | Content Creator</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#experience">Experience</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+<h2>About</h2>
+<p>
+Hello! I'm <b>Abhay Pandit</b>, a creative professional skilled in 
+<b>video editing, graphic designing, and YouTube thumbnail creation</b>. 
+I enjoy creating engaging digital content that helps creators and brands 
+stand out online. I am passionate about visual storytelling and constantly 
+learning new tools and techniques to improve my work.
+</p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<div class="skill">Video Editing</div>
+<div class="skill">Graphic Design</div>
+<div class="skill">Thumbnail Design</div>
+<div class="skill">Content Creation</div>
+<div class="skill">Basic Python</div>
+<div class="skill">HTML & CSS</div>
+</div>
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+<p>
+• Created multiple YouTube thumbnails for social media creators.<br>
+• Edited short-form videos for YouTube Shorts and Instagram Reels.<br>
+• Built personal portfolio websites using HTML and CSS.<br>
+• Worked on creative graphic designs for digital content.
+</p>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+<img src="work.jpg" alt="Recent Work">
+<div class="project-content">
+<h3>Recent Graphic Design Work</h3>
+<p>Creative poster and graphic design project showcasing visual design skills.</p>
+</div>
+</div>
+
+<div class="project">
+<div class="project-content">
+<h3>Video Editing Project</h3>
+<p>YouTube Shorts video editing project.</p>
+<a href="https://youtube.com/shorts/qdA_fv9UjWg?si=HWd1Nabjw9k1srym" target="_blank">Watch Video</a>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact</h2>
+<p>Email: abhaycreats@gmail.com</p>
+<p>Phone: 9554071487</p>
+<p>Location: Ayodhya, Uttar Pradesh, India</p>
+</section>
+
+<footer>
+<p>© 2026 Abhay Pandit | Portfolio</p>
+</footer>
+
+</body>
+  </html>
